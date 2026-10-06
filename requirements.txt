@@ -1,0 +1,8 @@
+# Pinned runtime + dev dependencies (verified 2026-10-06, Python 3.12).
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.6
+matplotlib==3.11.2
+statsmodels==0.14.6
+scikit-learn==1.8.0
+pytest==9.1.1

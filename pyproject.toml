@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tsforecast"
+version = "0.1.0"
+description = "Probabilistic time-series forecasting with structural state-space models"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy==2.5.3",
+    "scipy==1.18.1",
+    "pandas==3.0.6",
+    "matplotlib==3.11.2",
+    "statsmodels==0.14.6",
+    "scikit-learn==1.8.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

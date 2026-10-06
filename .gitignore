@@ -1,0 +1,17 @@
+# Python / packaging
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Data (raw files are large; processed CSV is committed)
+data/raw/
+
+# Results are committed (they are the evidence), but not the cache
+# (nothing else to ignore here)
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
